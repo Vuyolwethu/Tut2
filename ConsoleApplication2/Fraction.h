@@ -18,8 +18,14 @@ public:
 	Fraction Subtract(Fraction);
 	Fraction Multiply(Fraction);
 	Fraction Divide(Fraction);
-	void Print();
-};
 
-#endif
+	Fraction operator+(Fraction);
+	Fraction operator-(Fraction);
+	Fraction operator*(Fraction);
+	Fraction operator/(Fraction);
+    void Print();
+};
+Fraction Read();
 int gcd(int, int);
+#endif
+
